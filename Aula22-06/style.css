@@ -1,0 +1,27 @@
+
+body {
+    height: 200vh;
+}
+
+.container {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 400px;
+    border: 1px solid black;
+    position: relative;
+}
